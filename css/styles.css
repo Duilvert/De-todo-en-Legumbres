@@ -441,6 +441,14 @@ form{
     padding-bottom: 5rem;
 }
 
+.nosotrosparrafo p{
+    margin-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
 .bodyproducto {
     background-color: #3b3a3a;
 
