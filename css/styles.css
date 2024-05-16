@@ -198,7 +198,7 @@ form{
     width: 25rem;
     height: 20rem; 
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.5rem;
     margin-left: 1rem;
 
 }
@@ -391,13 +391,17 @@ form{
     
 }
 
-#iniciocontacto .textc {
+#iniciocontacto .textc 
+{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
 
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 50%;
 }
 
 .textc{
@@ -416,6 +420,10 @@ form{
     justify-content: flex-start;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.h3iniciocontacto{
+    margin-top: 1.5rem;
 }
 
 #nosotros1 .imgp{
