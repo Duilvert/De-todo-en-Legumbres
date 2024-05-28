@@ -160,11 +160,6 @@ textarea {
     height: 5rem; 
 }
 
-svg { 
-    width: 3.5rem;
-    height: 3.5rem;
-}  
-
 section a {
     display: inline;
     flex-direction: row;
@@ -189,6 +184,13 @@ margin-left: 1.5rem;
 
 }
 
+footer .svgfb, .svgig{
+    height: 4rem;
+    width: 4rem;
+}
+footer{
+    padding-top: 100px;
+}
 .btn-submit {
     background-color: #d8b54d;
     border-radius: 10%;
@@ -244,12 +246,12 @@ form{
 .btn-ws {
     background-color: #21BF48;
     border-radius: 70%;
-    width: 5.7rem;
-    height: 5.7rem;
-    padding: 1rem;
+    width: 7rem;
+    height: 7rem;
+    padding: 1.3rem;
     position: fixed;
-    right: 3rem ;
-    bottom: 10rem;
+    right: 6rem ;
+    bottom: 15rem;
     text-align: center; 
     color:#fff;
 }
@@ -685,10 +687,10 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 90%;
-    max-height: 70rem;
-    padding-left: 15rem;
-
+    padding-bottom: 10rem;
+    padding-top: 50px;
+    padding-left: 400px;
+    height: 700px;
 }
 
 
