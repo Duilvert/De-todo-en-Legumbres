@@ -35,8 +35,6 @@ html {
     margin: 0 auto;
 }
 
-
-
 .nav-link {
     color:  #7a4f1e;
     text-decoration: none;
@@ -84,13 +82,11 @@ html {
     cursor:pointer;
     
     display: none;
-
 }
 
 .logo-image{
     width: 7rem;
 }
-
 
 h1 {
     color:#ffffff;
@@ -121,7 +117,6 @@ h2 {
 .h2p{padding-bottom: 2.5rem;
 }
 
-
 h4 {
     font-size: 1rem ;
 display: flex;
@@ -141,7 +136,6 @@ footer{
     justify-content: center;
     margin-top: auto;
 }
-
 
 section p {
     color: #ffffff;
@@ -176,22 +170,22 @@ section a {
 height: 5rem;
 width: 5rem;
 margin-left: 1.5rem;
-
 }
 
 footer .svgfb, .svgig{
     height: 4rem;
     width: 4rem;
 }
+
 footer{
     padding-top: 100px;
 }
+
 .btn-submit {
     background-color: #d8b54d;
     border-radius: 10%;
     width: 10rem;
     height: 5rem;
-
 }
 
 .maps {     
@@ -199,7 +193,7 @@ footer{
     display: inline-block;
     width: 20rem;
     height: 20rem; 
-    }
+}
 
 .mapas {
     display: flex;
@@ -207,8 +201,6 @@ footer{
     justify-content: flex-start;
     align-items: center;
     width: 50%;
-
-
 }
 
 .mapacontacto { 
@@ -234,9 +226,7 @@ form{
     margin-top: 1.5rem;
     margin-bottom: 3.5rem;
     margin-left: 1rem;
-
 }
-
 
 .btn-ws {
     background-color: #21BF48;
@@ -251,12 +241,10 @@ form{
     color:#fff;
 }
 
-
 .btn-ws:hover {
     color:#21BF48;
     background:#fff 
 }
-
 
 .logo {
     width: 5rem;
@@ -274,9 +262,7 @@ form{
     height: 35rem;
     background-attachment: fixed;
     background-size: cover;
-    
 }
-
 
 .fondotext1{
     padding-top: 1.5rem;
@@ -287,7 +273,6 @@ form{
 .fondotext3{
     padding-top: 2.5rem;
 }
-
 
 .fondo2 {
     background-image: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
@@ -316,7 +301,6 @@ form{
     font-size: 2.0rem;
 }
 
-
 #nosotros .img{
     display: flex;
     flex-direction: column;
@@ -324,12 +308,10 @@ form{
     align-items: center;
     padding: 5rem;
     width: 30%;
-
 }
 
 #nosotros div img {
     width: 70%;
-    
 }
 
 #nosotros .text{
@@ -402,8 +384,6 @@ form{
     width: 60%;
     margin-bottom: 7.5rem;
     margin-top: 7.5rem;
-
-
 }
 
 .textpq{
@@ -412,7 +392,6 @@ form{
     font-style: italic;
     font-size: 2.4rem;
     font-style: normal;
-
 }
 
 #iniciocontacto {
@@ -425,26 +404,20 @@ form{
     
 }
 
-#iniciocontacto .textc 
-{
+#iniciocontacto .textc {
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
-
     align-items: center;
-
     width: 50%;
 }
 
-.textc{
+.textc {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 2.5rem;
     font-style: normal;
-
 }
 
 #nosotros1 {
@@ -456,11 +429,11 @@ form{
     margin-top: 1rem;
 }
 
-.h3iniciocontacto{
+.h3iniciocontacto {
     margin-top: 1.5rem;
 }
 
-#nosotros1 .imgp{
+#nosotros1 .imgp {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -468,11 +441,9 @@ form{
     padding: 5rem;
     padding-right: 18rem;
     width: 35%;
-    
-
 }
 
-.nosotrosparrafo{
+.nosotrosparrafo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -483,17 +454,15 @@ form{
     padding-bottom: 5rem;
 }
 
-.nosotrosparrafo p{
+.nosotrosparrafo p {
     margin-top: 3.5rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    
 }
 
 .bodyproducto {
     background-color: #3b3a3a;
-
 }
 
 .bodytienda {
@@ -512,11 +481,11 @@ form{
     background-color: #3b3a3a;
 }
 
-.img{
+.img {
     max-width: 100%;
 }
 
-.imgp{
+.imgp {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -525,10 +494,9 @@ form{
     width: 50%;
 }
 
-.tiendah2{
+.tiendah2 {
     padding-bottom: 5rem;
 }
-
 
 .container-items {
     display: grid;
@@ -536,15 +504,15 @@ form{
     gap: 20px;
 }
 
-.item{
+.item {
     border-radius: 10px;
 }
 
-.item:hover{
+.item:hover {
     box-shadow: 0 10px 20px rgb(0, 0, 0, 0.20)
 }
 
-.item img{
+.item img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -552,21 +520,20 @@ form{
     transition: all .5s;
 }
 
-.item figure{
+.item figure {
     overflow: hidden;
 }
 
-.item:hover img{
+.item:hover img {
     transform: scale(1.2);
 }
 
-.info-producto{
+.info-producto {
     padding: 2.5rem 3rem 2rem 2rem;
     line-height: 2;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    
 }
 
 .price {
@@ -575,7 +542,7 @@ form{
     padding-left: 5rem;
 }
 
-.info-producto button{
+.info-producto button {
     border: none;
     background-color: none;
     background-color: rgb(252, 211, 134);
@@ -585,40 +552,35 @@ form{
     border-radius: 5%;
     width: 20rem;
     height: 5rem;
-    
-    
 }
 
-.grid-seccion1{
+.grid-seccion1 {
     grid-area: mapa1;
     justify-content: center;
     align-items: center;
-
 }
 
-.grid-seccion2{
+.grid-seccion2 {
     grid-area: mapa2;
 }
 
-.grid-seccion3{
+.grid-seccion3 {
     grid-area: mapa3;
     justify-content: center;
     align-items: center;
-
 }
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 10rem 10rem 10rem;
     grid-template-areas:
     "mapa1 mapa2 mapa3";
     padding-bottom: 10rem;
-    
 }
 
 
-.ptienda{
+.ptienda {
     display: flex;
     flex-direction: column;
     align-items: row;
@@ -626,8 +588,7 @@ form{
     margin-left: 5.3rem;
 }
 
-
-.ptienda2{
+.ptienda2 {
     display: flex;
     flex-direction: column;
     align-items: row;
@@ -635,8 +596,7 @@ form{
     margin-left: 9rem;
 }
 
-
-.ptienda3{
+.ptienda3 {
     display: flex;
     flex-direction: column;
     align-items: row;
@@ -644,8 +604,7 @@ form{
     margin-left: 11rem;
 }
 
-
-#mapa1{
+#mapa1 {
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -656,7 +615,7 @@ form{
 
 }
 
-#mapa2{
+#mapa2 {
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -664,10 +623,9 @@ form{
     max-width: 70%;
     height: 20rem;
     margin-left: 9rem;
-
 }
 
-#mapa3{
+#mapa3 {
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -677,7 +635,7 @@ form{
     margin-left: 11rem;   
 }
 
-#fototienda{
+#fototienda {
     display: flex;
     flex-direction: column;
     align-items: center;
