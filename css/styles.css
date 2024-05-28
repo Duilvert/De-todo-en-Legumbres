@@ -705,12 +705,12 @@ form {
     font-size: 1rem;
   }
   .svgfb {
-    width: 10%;
-    height: 30%;
+    width: 4rem;
+    height: 4rem;
   }
   .svgig {
-    width: 10%;
-    height: 30%;
+    width: 4rem;
+    height: 4rem;
   }
   .bodyinicio {
     font-size: 1rem;
@@ -805,5 +805,8 @@ form {
     font-style: italic;
     font-size: 2.5rem;
     font-style: normal;
+  }
+  svg {
+    padding-top: 0;
   }
 }/*# sourceMappingURL=styles.css.map */
