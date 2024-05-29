@@ -948,4 +948,7 @@ form input {
   .container-items img {
     width: 95%;
   }
+  .btn-ws {
+    right: 40px;
+  }
 }/*# sourceMappingURL=styles.css.map */
