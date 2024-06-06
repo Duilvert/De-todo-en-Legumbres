@@ -656,6 +656,18 @@ form {
     height: 700px;
 }
 
+form{
+    font-size: 1.7rem;
+    margin-left: 10rem;
+    label{
+        height: 1rem;
+    }
+    input{
+        height: 3rem;
+        width: 50rem;
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
 
